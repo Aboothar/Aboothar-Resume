@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Resume - Aboothar</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="resume">
+	<div class="top-section">
+		<div class="headshot-container">
+			<img src="Aboothar.jpg" alt="Aboothar Kafi" class="resume-headshot">
+		</div>
+		<div class="contact-info">
+			<h1>Aboothar Kafi</h1>
+			<p>
+				AWS Cloud Practitioner & Software Developer | 
+				<a href="https://github.com/Aboothar" target="_blank">github.com/Aboothar</a> | 
+				<a href="mailto:aboothar.kafi@yahoo.com">aboothar.kafi@yahoo.com</a>
+			</p>
+		</div>
+	</div>
+
+    <section class="resume-section" id="experience">
+        <h2>Professional Experience</h2>
+        <div id="timeline"></div> <!-- Placeholder for timeline entries -->
+    </section>
+
+	<section class="resume-section" id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <span class="degree" id="education-toggle" style="cursor: pointer;">
+                    Computer Programming
+                </span>
+                <span class="school">Conestoga College, Jan 2023 - Apr 2024</span>
+                <p id="education-desc" style="display: none;">
+                    Developed software applications using C#, Java, JavaScript, and SQL.  
+                    Built responsive web apps with HTML5, CSS, React, and Node.js.  
+                    Designed and managed relational databases using MySQL.  
+                    Implemented solutions with AWS Cloud.  
+                    Practiced Agile methodologies.
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="resume-section" id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>AWS Cloud Practitioner (Sep 2024 - Dec 2024)</li>
+            <li>Google IT Support Professional Certificate (Jan 2023 - Apr 2023)</li>
+            <li>Junior IT Analyst Program (Jan 2023 - Apr 2023)</li>
+        </ul>
+    </section>
+
+    <section class="resume-section" id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li><strong>Operating Systems:</strong> Windows, Android, iOS, Mac OS, Linux</li>
+            <li><strong>Applications:</strong> ServiceNow, Microsoft Office 365, GanttProject</li>
+            <li><strong>Tools:</strong> VMware, Google Workspace, Packet Tracer, AWS Amplify, GitHub Actions</li>
+            <li><strong>Project Management:</strong> Agile, Scrum, Gantt Charts</li>
+            <li><strong>Cloud Computing:</strong> AWS (EC2, S3, RDS, Lambda, Amplify, IAM, VPC, CloudFront, Route 53)</li>
+            <li><strong>Database Management:</strong> MySQL, DynamoDB</li>
+            <li><strong>Security & Networking:</strong> AWS IAM, VPC, CloudFront, Route 53</li>
+            <li><strong>Languages:</strong> HTML5, CSS, JavaScript, C#</li>
+        </ul>
+    </section>
+</div>
+
+<script src="scripts.js"></script>
+</body>
+</html>
